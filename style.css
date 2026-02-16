@@ -6,12 +6,34 @@ h1 {
   color: antiquewhite;
 }
 
-
-
-
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 50px;
+}
+
+nav {
+  background-color:aliceblue;
+  padding-left: 4px;
+  border:2px solid black;
+}
+
+nav a {
+  margin-right:15px;
+}
+
+header {
+  background-color:turquoise;
+  padding-left: 4px;
+}
+
+main {
+  background-color:navajowhite;
+  padding-left: 4px;
+  border:3px solid black;
+}
+
+footer {
+  background-color:navy;
+  padding-left: 4px;
 }
