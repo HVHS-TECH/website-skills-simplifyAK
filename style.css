@@ -37,3 +37,14 @@ footer {
   background-color:navy;
   padding-left: 4px;
 }
+
+.subjects {
+  background-color:bisque;
+  color: burlywood;
+  margin: 20px;
+  padding: 20px;
+}
+.penguin {
+  border:30px;
+  margin:30px;
+}
