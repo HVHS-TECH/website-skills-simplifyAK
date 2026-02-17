@@ -6,10 +6,17 @@ h1 {
   color: antiquewhite;
 }
 
-.gallery {
+.container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 50px;
+  grid-template-columns: 250px 350px;
+  gap: 30px 100px;
+  align-content: center;
+  border: 10px solid beige;
+  border-radius: 6px;
+}
+
+.container div {
+  background-color: aquamarine;
 }
 
 nav {
@@ -36,6 +43,7 @@ main {
 footer {
   background-color:navy;
   padding-left: 4px;
+  color:azure ;
 }
 
 .subjects {
