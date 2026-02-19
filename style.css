@@ -8,16 +8,18 @@ h1 {
 
 .container {
   display: grid;
-  grid-template-columns: 250px 350px;
+  grid-template-columns: 320px 320px;
+  grid-template-rows: 320px 320px;
   gap: 30px 100px;
   align-content: center;
+  
+}
+
+.container div {
   border: 10px solid beige;
   border-radius: 6px;
 }
 
-.container div {
-  background-color: aquamarine;
-}
 
 nav {
   background-color:aliceblue;
@@ -43,7 +45,7 @@ main {
 footer {
   background-color:navy;
   padding-left: 4px;
-  color:azure ;
+  color:black ;
 }
 
 .subjects {
