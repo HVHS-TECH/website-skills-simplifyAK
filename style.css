@@ -8,16 +8,17 @@ h1 {
 
 .container {
   display: grid;
-  grid-template-columns: 320px 320px;
-  grid-template-rows: 320px 320px;
-  gap: 30px 100px;
-  align-content: center;
+  padding: 5px;
+  gap: 10px;
+  width: auto;
+  background-color: white;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   
 }
-
 .container div {
-  border: 10px solid beige;
-  border-radius: 6px;
+  border:  10px solid black;
+  
 }
 
 
@@ -43,7 +44,6 @@ main {
 }
 
 footer {
-  background-color:navy;
   padding-left: 4px;
   color:black ;
 }
