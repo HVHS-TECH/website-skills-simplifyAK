@@ -14,11 +14,9 @@ h1 {
   background-color: white;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  
 }
 .container div {
   border:  10px solid black;
-  
 }
 
 
