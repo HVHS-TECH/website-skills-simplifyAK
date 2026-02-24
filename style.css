@@ -85,6 +85,14 @@ footer {
   grid-column-end: 5;
 }
 
+.container2 img {
+  width: 195px;
+  height: auto;
+}
 
 
-
+@media screen and (min-width: 500px) {
+  body {
+    background-color: white;
+  }
+}
